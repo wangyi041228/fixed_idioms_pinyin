@@ -2,10 +2,12 @@
 使用汉典数据为汉兜的成语标注拼音  
 [汉典官网](https://www.zdic.net/)  
 [汉兜成语数据](https://github.com/antfu/handle/blob/main/src/data/idioms.json)  
+## 对汉兜的建议
+像Wordle一样对输入进行检查，没有命中词库直接驳回，可以避免强行为`阿阿阿阿`注音的尴尬场景。  
 ## 文件说明
-`idioms.json`按原始数据压缩
-`idioms0.json`按json标准换行
-`idioms1.json`保留正写拼音、繁体（如无则简）和注音
+`idioms.json`按原始数据压缩。  
+`idioms0.json`按json标准换行。  
+`idioms1.json`保留正写拼音、繁中（如无则简）和注音。90个成语的注音收录在繁中页面，我偷懒标为`暂缺`。
 ## 汉兜收录，但汉典没有的161个条目，前面人工挑选标注了对应的条目但json数据中留空，后面不管了
 抜格不入	扞格不入  
 跋胡痜尾	跋胡疐尾  
