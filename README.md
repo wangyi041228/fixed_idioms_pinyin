@@ -14,6 +14,7 @@
 汉典提供成语部首索引，但搜【事】无结果，暂时搁置。
 ## 文件说明
 `idioms.json`可直接替换原工程对应文件。  
+按照原始文件，`ü`一律写作`v`。  
 ## 汉兜此前收录，但汉典没有的161文字条目，已人工修正24条
 【抜格不入】→【扞格不入】抜ba2，扞han4  
 【.*鄐诜.*】→【.*郤诜.*】和【.*郄诜.*】（2条变4条）  
@@ -167,7 +168,178 @@
 騣女痴男  
 騣童钝夫  
 坐地分脏  
-## 相同文字但拼音不同，先全部以汉典为准
+## 相同文字但拼音不同，优先参考汉兜带拼音部分，汉兜原版留空部分先全部参考汉典，而非字典
+例如：
+只zhi1言片语  
+坐视shi4不救  
+## 汉典与汉兜现有拼音对比
+| 成语 | 汉典拼音 | 汉兜数据 |
+| --- | --- | --- |
+| 百花争妍 | bai3 hua1 zheng1 yan2 | bai3 hua1 zheng1 yan4 |
+| 鼻塌脣青 | bi2 ta1 chun2 qing1 | bi2 ta3 chun2 qing1 |
+| 弊帚自珍 | bi4 zhou3 zi4 zhen1 | bi4 zhou3 zi4 zhen2 |
+| 便宜从事 | bian4 yi2 cong2 shi4 | bian2 yu2 cong2 shi4 |
+| 便宜施行 | bian4 yi2 shi1 xing2 | bian2 yu2 shi1 xing2 |
+| 不破不立 | bu4 puo4 bu4 li4 | bu4 po4 bu4 li4 |
+| 惨绿愁红 | can3 lu4 chou2 hong2 | can3 lv4 chou2 hong2 |
+| 惨绿少年 | can3 lu4 shao3 nian2 | can3 lv4 shao4 nian2 |
+| 苍白无力 | cang1 bai2 bui2 li4 | ang1 bai2 bui2 li4 |
+| 层见错出 | ceng2 xian4 cuo4 chu1 | ceng2 chu1 cuo4 jian4 |
+| 成家立业 | cheng2 jia1 li4 yie4 | cheng2 jia1 li4 ye4 |
+| 愁红惨绿 | chou2 hong2 can3 lu4 | chou2 hong2 can3 lv4 |
+| 愁眉不展 | chou2 mei2 bu4 zhan1 | chou2 mei2 bu4 zhan3 |
+| 传风搧火 | chuan2 feng1 shan1 huo3 | chuan2 feng1 you3 huo3 |
+| 传神阿堵 | chuan2 shen2 a1 du3 | chuan2 shen2 e1 du3 |
+| 歠菽饮水 | chuo4 shu1 yin3 shui3 | pa2 shu1 yin3 shui3 |
+| 大步流星 | da3 bu4 liu2 xing1 | da4 bu4 liu2 xing1 |
+| 大大落落 | da4 da luo1 luo1 | da4 da4 luo4 luo4 |
+| 大雨滂沱 | da4 yu3 pang1 tuo2 | da4 yu3 pang2 tuo2 |
+| 单枪匹马 | dan1 qiang1 pi2 ma3 | dan1 qiang1 pi3 ma3 |
+| 颠乾倒坤 | dian1 qian1 dao3 kun1 | dian1 qian2 dao3 kun1 |
+| 跌宕风流 | die1 dang4 fengliu12 | die1 dang4 feng liu2 |
+| 冬箑夏裘 | dong1 sha4 xia4 qiu2 | dong1 zha2 xia4 qiu2 |
+| 斗筲穿窬 | dou3 shao1 chuan1 yu2 | dou4 shao1 chuan1 yu2 |
+| 笃近举远 | du3 jin4 ju3 yuan3 | du3 jin4 ju3 juan3 |
+| 额首称庆 | e2 shou3 cheng1 qing4 | e2 shou1 cheng1 qing4 |
+| 发怒冲冠 | fa4 nu4 chong1 guan1 | fa1 nu4 chong1 guan4 |
+| 发上冲冠 | fa4 shang4 chong1 guan1 | fa1 shang4 chong1 guan4 |
+| 发上指冠 | fa4 shang4 zhi3 guan1 | fa1 shang4 zhi3 guan4 |
+| 风尘肮脏 | feng1 chen2 ang1 zang1 | feng chen ang zang |
+| 风云变幻 | feng1 yun2 bia4 huan4 | feng1 yun2 bian4 huan4 |
+| 风姿绰约 | feng1 zi1 chuo4 yue1 | feng1 zi1 chuo1 yue2 |
+| 负债累累 | fu4 zhai4 lei3 lei3 | fu4 zhai lei4 lei4 |
+| 改行自新 | gai3 xing2 zixin41 | gai3 xing2 zi4 xin1 |
+| 葛屦履霜 | ge2 ju4 lv3 shuang1 | ge3 ju4 lv3 shuang1 |
+| 各有所长 | ge4 you3 suo3 chang2 | ge4 you3 suo3 cheng2 |
+| 攻城掠地 | gong1 cheng2 lve4 di4 | gong1 cheng2 lve3 di4 |
+| 拱肩缩背 | gong3 jan1 suo1 bei4 | gong3 jian1 suo1 bei4 |
+| 古肥今瘠 | gu3 fei2 jin1 ji2 | gu3 fei2 jin1 shou4 |
+| 瓜葛相连 | gua1 ge2 xiang1 lian2 | gua1 ge3 xiang1 lian2 |
+| 官运亨通 | guan1 yun4 heng1 gong1 | guan1 yun4 heng1 tong1 |
+| 过都历块 | guo4 du1 li4 kuai4 | guo4 dou1 li4 kuai4 |
+| 蒿目时艰 | hao1 mu4 shi2 jian1 | hang4 mu4 shi2 jian1 |
+| 划粥割齑 | hua4 zhou1 ge1 ji1 | hua4 zhou1 ge1 jiu1 |
+| 怀才不遇 | huai2 cai2 bu1 yu4 | huai2 cai2 bu4 yu4 |
+| 怀柔天下 | huai2 rou2 tian1 xia4 | huai rou tian xia |
+| 欢呼雀跃 | huan1 hu1 que2 yue2 | huan1 hu1 que4 yue4 |
+| 鹡鸰在原 | ji2 ling2 zai4 yuan2 | xia4 ling2 zai4 yuan2 |
+| 戟指怒目 | ji3 zhi3 nu3 mu4 | ji3 zhi3 nu3 zhang1 |
+| 坚壁清野 | jian1 bi4 qing1 yie3 | jian1 bi4 qing1 ye3 |
+| 间不容发 | jian1 bu4 rong2 fa4 | jian4 bu4 rong2 fa4 |
+| 间不容瞚 | jian1 bu4 rong2 shun4 | jian1 bu4 rong2 xi3 |
+| 简明扼要 | jian3 ming2 e2 yao4 | jian3 ming2 e4 yao4 |
+| 诘屈磝碻 | ji2 qu1 ao2 qiao1 | jie2 qu1 bing4 zhou4 |
+| 诘屈謷牙 | ji2 qu1 ao2 ya2 | jie2 qu1 da4 ya2 |
+| 戒奢宁俭 | jie4 she1 ning4 jian1 | jie4 she1 ning4 jian3 |
+| 进退两难 | jin3 tui4 liang3 nan2 | jin4 tui4 liang3 nan2 |
+| 九蒸三熯 | jiu3 zheng1 san1 han4 | jiu3 zheng1 san1 sheng1 |
+| 君子好逑 | jun1 zi3 hao3 qiu2 | jun1 zi3 hao4 qiu2 |
+| 坑蒙拐骗 | keng1 meng1 guai3 pian4 | keng1 meng2 guai3 pian4 |
+| 款曲周至 | kuan3 qu1 zhou1 zhi4 | kuan3 qu3 zhou1 zhi4 |
+| 锒铛入狱 | lang2 dang1 ru4 yu4 | lang2 kang1 ru4 yu4 |
+| 唠唠叨叨 | lao2 lao dao1 dao1 | lao1 lao1 dao1 dao1 |
+| 雷霆之怒 | lei2 ting2 wan4 j | lei2 ting2 zhi1 nu4 |
+| 里出外进 | li3 chu1 wai4 lian2 | li3 chu1 wai4 jin4 |
+| 力有未逮 | li4 you3 wei4 dai4 | li4 you3 wei4 dai3 |
+| 龙吟虎啸 | long2 yin1 hu3 xiao4 | long2 yin2 hu3 xiao4 |
+| 露红烟绿 | lu4 hong2 yan1 lu4 | lu4 hong2 yan1 lv4 |
+| 屡教不改 | lv3 jian4 bu4 gai3 | lv3 jiao4 bu4 gai3 |
+| 率尔操觚 | shuai4 er3 cao1 gu1 | shuai4 er2 cao1 gu1 |
+| 尨眉皓发 | manɡ2 mei2 hao4 fa4 | chou2 mei2 hao4 fa1 |
+| 毛遂自荐 | mao2 sui4 zi4 jian4 | mao2 sui2 zi4 jian4 |
+| 莫予毒也 | mo4 yu4 du2 ye3 | mo4 yu2 du2 ye3 |
+| 谋无遗谞 | mou2 wu2 yi2 xu1 | mou2 wu2 yi2 er2 |
+| 目瞪舌彊 | mu4 deng4 she2 qiang2 | mu4 deng4 she2 jiang4 |
+| 拿刀动杖 | na2 dao1 nong4 zhang4 | na2 dao1 dong4 zhang4 |
+| 内圣外王 | nei4 sheng4 wai4 wang2 | nei4 sheng4 wai4 zhu3 |
+| 逆行倒施 | ni4 xing2 dao4 shi1 | ni4 xing2 dao3 shi1 |
+| 年高德卲 | nian2 gao1 de2 shao4 | nian2 gao1 de2 er2 |
+| 滂沱大雨 | pang1 tuo2 da4 yu3 | pang2 tuo2 da4 yu3 |
+| 批亢捣虚 | pi1 kang4 dao3 xu1 | pi1 gang4 dao3 xu1 |
+| 片言只语 | pian4 yan2 zhi3 yu3 | pian4 yan2 zhi1 yu3 |
+| 片语只辞 | pian4 yan2 zhi3 ci2 | pian4 yu3 zhi3 ci2 |
+| 片纸只字 | pian4 zhi3 yan2 zi4 | pian4 zhi3 zhi1 zi4 |
+| 偏听偏信 | pian1 ting1 piang1 xin4 | pian1 ting1 pian1 xin4 |
+| 帡天极地 | pinɡ2 tian1 ji2 di4 | ju2 tian1 ji2 di4 |
+| 破璧毁珪 | po4 bi4 hui3 ɡui1 | po4 bi4 hui3 zhi3 |
+| 破斧缺斨 | po4 fu3 que1 qiang1 | po4 fu3 que1 zhou1 |
+| 泣不成声 | qi3 bu4 cheng2 sheng1 | qi4 bu4 cheng2 sheng1 |
+| 强弓劲弩 | qiang2 gong1 jing4 nu3 | qiang2 gong1 jin4 nu3 |
+| 勤学苦练 | qin2 xue2 ku3 zh | qin2 xue2 ku3 lian4 |
+| 擒奸擿伏 | qin2 jian1 ti1 fu2 | qin2 jian1 fa1 fu2 |
+| 情急智生 | qing2 ji2 sheng1 zhi4 | qing2 ji2 zhi4 sheng1 |
+| 曲肱而枕 | qu1 gong1 er2 zhen3 | qu3 gong1 er2 zhen3 |
+| 取而代之 | qu3 e2 dai4 zhi1 | qu3 er2 dai4 zhi1 |
+| 忍俊不禁 | ren3 jun4 bu4 jin1 | ren3 jun4 bu4 jin4 |
+| 日居月诸 | ri4 ji1 yue4 zh | ri4 ju1 yue4 zhu1 |
+| 三年五载 | san1 nian2 wu3 zai3 | san1 nian2 wu3 zai4 |
+| 丧胆销魂 | sang4 dan3 xiao1 hun2 | sang4 hun2 xiao1 hun2 |
+| 善善恶恶 | shan4 shan4 e4 e4 | shan4 shan4 wu4 e4 |
+| 上当学乖 | shang4 dang1 xue2 guai1 | shang4 dang4 xue2 guai1 |
+| 身心交病 | shen1 xing1 jiao1 bing4 | shen1 xin1 jiao1 bing4 |
+| 神魂荡飏 | shen2 hun2 dang4 yang2 | shen2 hun2 dang4 chen2 |
+| 鼪鼯之径 | sheng1 wu2 zhi1 jing4 | wei2 wu2 zhi1 jing4 |
+| 鼪鼬之迳 | sheng1 you4 zhi1 jing4 | tian1 you4 zhi1 jing4 |
+| 瘦骨嶙峋 | shou4 gu3 lin2 xun2 | shou4 gu3 li2 xun2 |
+| 书声琅琅 | shu1 sheng1 lang2 lang2 | shu1 sheng1 lang3 lang3 |
+| 薮中荆曲 | sou3 zhong1 jing1 qu3 | sou3 zhong1 ji2 qu3 |
+| 涕泗滂沱 | ti4 si4 pang2 tuo2 | ti4 si4 pang1 tuo2 |
+| 添砖加瓦 | tian1 zhuan1 jie1 wa3 | tian1 zhuan1 jia1 wa3 |
+| 靦颜人世 | mian3 yan2 ren2 shi4 | tian3 yan2 ren2 shi4 |
+| 铤鹿走险 | ding4 lu4 zou3 xian3 | ting3 lu4 zou3 xian3 |
+| 玩岁愒月 | wan2 sui4 kai4 yue4 | wan2 sui4 yi1 yue4 |
+| 汪洋自恣 | wang1 yang2 zi4 zi4 | wang1 yang2 zi4 zi1 |
+| 畏首畏尾 | wei4 sho3 wei4 wei3 | wei4 shou3 wei4 wei3 |
+| 稳操胜券 | wen2 cao1 sheng4 quan4 | wen3 cao1 sheng4 quan4 |
+| 无病呻吟 | wu2 bing4 shen1 yin1 | wu2 bing4 shen1 yin2 |
+| 无可比拟 | wu2 ke3 bi3 ni4 | wu2 ke3 bi3 ni3 |
+| 物阜民安 | wu4 fu4 min2 an1 | wu4 fu3 min2 an1 |
+| 物竞天择 | wu4 jing4 tian1 ze2 | wu4 jin4 tian1 ze2 |
+| 物美价廉 | wu4 mei3 jia4 lian2 | jia4 lian2 wu4 mei3 |
+| 瑕瑜互见 | xia2 yu2 hu4 jian4 | xia2 yu2 hu4 xian4 |
+| 咸阳一炬 | xian2 yang2 yi1 ju4 | xian2 yang2 yi1 ju3 |
+| 挦毛捣鬓 | xian2 mao2 dao3 bin4 | tun2 mao2 dao3 bin4 |
+| 挦绵扯絮 | xian2 mian2 che3 xu4 | chan2 mian2 che3 xu4 |
+| 挦章撦句 | xian2 zhang1 zong1 ju4 | long2 zhang1 zong1 ju4 |
+| 枵腹终朝 | xiao1 fu4 zhong1 zhao1 | xiao1 fu4 zhong1 chao2 |
+| 鸮鸣鼠暴 | xiao1 ming2 shu3 bao4 | zhang1 ming2 shu3 bao4 |
+| 鸮鸟生翼 | xiao1 niao3 sheng1 yi4 | qing1 niao3 sheng1 yi4 |
+| 鸮啼鬼啸 | xiao1 ti2 gui3 xiao4 | niao3 ti2 gui3 xiao4 |
+| 鸮心鹂舌 | xiao1 xin1 li2 she2 | ren2 xin1 li2 she2 |
+| 蝎蝎螫螫 | xie1 xie1 zhe2 zhe2 | xie1 xie1 zhe1 zhe1 |
+| 挟势弄权 | xie2 shi4 nong4 quan2 | jia1 shi4 nong4 quan2 |
+| 悬龟系鱼 | xuan2 guiji14 yu2 | xuan2 gui ji4 yu2 |
+| 叶落归根 | ye4 luo4 hui1 gen1 | ye4 luo4 gui1 gen1 |
+| 一板一眼 | yi1 ban3 yin1 yan3 | yi1 ban3 yi1 yan3 |
+| 一哄而散 | yi1 honɡ4 er2 san4 | yi1 hong4 er2 san4 |
+| 一哄而上 | yi4 hong1 er2 shang4 | yi1 hong1 er2 shang4 |
+| 一览无余 | yi1 lai3 wu2 yu2 | yi1 lan3 wu2 yu2 |
+| 一邱之貉 | yi1 qiu1 zhi1 he2 | yi1 qiu1 zhi1 he4 |
+| 一五一十 | yi1 wu2 yi1 shi2 | yi1 wu3 yi1 shi2 |
+| 移宫换羽 | yi2 gong1 huan4 yu3 | yi2 dong1 huan4 yu3 |
+| 以蠡测海 | yi3 li3 ce4 hai3 | yi3 li2 ce4 hai3 |
+| 以身报国 | yi3 sheng1 bao4 guo2 | yi3 shen1 bao4 guo2 |
+| 以身许国 | yi3 sheng1 xu3 guo2 | yi3 shen1 xu3 guo2 |
+| 以身殉国 | yi3 sheng1 xun4 guo2 | yi3 shen1 xun4 guo2 |
+| 以噎废飡 | yi3 ye1 fei4 can1 | yi3 ye1 fei4 guang1 |
+| 喑噁叱咤 | yin1 e4 chi4 zha4 | yin1 wu4 chi4 zha4 |
+| 淫言媟语 | yin2 yan2 xie4 yu3 | yin2 yan2 liang3 yu3 |
+| 永永无穷 | yong3 yong3 wu2 qiong2 | yong3 shi4 wu2 qiong2 |
+| 用行舍藏 | yong4 xing2 she3 cang2 | yong4 xing2 cang2 she3 |
+| 有加无已 | you3 jia1 wu3 yi3 | you3 jia1 wu2 yi3 |
+| 有隙可乘 | you3 xi4 ke3 cheng4 | you3 xi4 ke3 cheng2 |
+| 杅穿皮蠹 | yu2 chuan1 pi2 du4 | yu2 chuan1 shui3 du4 |
+| 与民更始 | yu3 ren2 geng1 shi3 | yu3 min2 geng1 shi3 |
+| 语笑喧阗 | yu3 xiao4 xuan1 tian1 | yu3 xiao4 xuan1 tian2 |
+| 约法三章 | yue4 fa3 san1 zhang1 | yue1 fa3 san1 zhang1 |
+| 葬身鱼腹 | zang4 shen1 yu1 fu4 | zang4 shen1 yu2 fu4 |
+| 乍暖还寒 | zha4 nuan3 huan2 han2 | zha4 nuan3 hai2 han2 |
+| 赭衣塞路 | zhe3 yi1 sai41 lu4 | zhe3 yi1 se4 lu4 |
+| 支吾其词 | zhi1 wu1 qi2 ci2 | zhi1 wu2 qi2 ci2 |
+| 指囷相赠 | zhi3 qun1 xiang1 zeng4 | zhi3 que4 xiang1 zeng4 |
+| 装模作样 | zhuang1 mu2 zuo4 yang4 | zhuang1 mo2 zuo4 yang4 |
+| 坐视不救 | zuo4 shi1 bu4 jiu4 | zuo4 shi4 bu4 jiu4 |
+## 汉典（上半部）与字典拼音对比
 | 成语 | 汉典拼音 | 字典拼音 |
 | --- | --- | --- |
 | 昂藏七尺 | ang2 cang2 qi1 chi3 | ang2 zang4 qi1 chi3 |
